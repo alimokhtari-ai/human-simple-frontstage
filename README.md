@@ -32,7 +32,7 @@ Instruction precedence:
 ## Install for Codex
 
 ```bash
-npx -y skills add https://github.com/alimokhtariw100/test-project \
+npx -y skills add https://github.com/alimokhtariw100/human-simple-frontstage \
   --skill "human-simple-frontstage" \
   --agent codex \
   --global
@@ -41,7 +41,7 @@ npx -y skills add https://github.com/alimokhtariw100/test-project \
 ## Install for Claude Code
 
 ```bash
-npx -y skills add https://github.com/alimokhtariw100/test-project \
+npx -y skills add https://github.com/alimokhtariw100/human-simple-frontstage \
   --skill "human-simple-frontstage" \
   --agent claude-code \
   --global
