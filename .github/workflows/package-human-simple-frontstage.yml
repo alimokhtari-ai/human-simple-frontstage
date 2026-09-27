@@ -7,6 +7,11 @@ on:
       - "skills/human-simple-frontstage/**"
       - ".github/skill-tools/**"
       - ".github/workflows/package-human-simple-frontstage.yml"
+  pull_request:
+    paths:
+      - "skills/human-simple-frontstage/**"
+      - ".github/skill-tools/**"
+      - ".github/workflows/package-human-simple-frontstage.yml"
 
 permissions:
   contents: read

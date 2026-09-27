@@ -1,0 +1,38 @@
+name: Improvement proposal
+description: Suggest a focused improvement grounded in a real writing or workflow need.
+title: "proposal: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Strong proposals explain the real-world problem and preserve the skill's commitments to clarity, truth, privacy, and dignity.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Who experiences this problem and in what context?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Describe the smallest useful change.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example or reference
+      description: Include a non-sensitive before-and-after example, if relevant.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues before opening this proposal.
+          required: true
+        - label: This proposal does not contain sensitive or private information.
+          required: true

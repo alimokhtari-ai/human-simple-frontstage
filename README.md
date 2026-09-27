@@ -1,5 +1,7 @@
 # Ali Mokhtari AI Skills
 
+[![Validate and package](https://github.com/alimokhtari-ai/human-simple-frontstage/actions/workflows/package-human-simple-frontstage.yml/badge.svg)](https://github.com/alimokhtari-ai/human-simple-frontstage/actions/workflows/package-human-simple-frontstage.yml)
+
 Custom, portable Agent Skills for the Ali Mokhtari AI workflow.
 
 ## Available skill
@@ -61,3 +63,10 @@ The skill contains:
 - `references/output-formats.md` — exact replacement, copy deck, form, audit, and final-only formats
 - `references/examples.md` — concrete before/after examples
 - `references/project-integration.md` — safe use inside repositories and alongside design/QA skills
+
+## Project standards
+
+- [Contributing guide](CONTRIBUTING.md)
+- [Security policy](SECURITY.md)
+- [Code of conduct](CODE_OF_CONDUCT.md)
+- [Report a bug or suggest an improvement](https://github.com/alimokhtari-ai/human-simple-frontstage/issues/new/choose)
